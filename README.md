@@ -47,6 +47,9 @@ The raw dataset contained features that "spoiled" the answer. The following were
 * **Python Version:** 3.12+
 * **Libraries:** `pandas`, `catboost`, `scikit-learn`, `seaborn`, `joblib`.
 
+### 4. Loading Data
+The dataset is not included in the repository. Please download telco.csv from [Kaggle Link]([text](https://www.kaggle.com/datasets/alfathterry/telco-customer-churn-11-1-3?select=telco.csv)) and place it in data/raw/."
+
 ## 📂 Project Structure
 ```text
 ├── data/
