@@ -50,6 +50,14 @@ The raw dataset contained features that "spoiled" the answer. The following were
 ### 4. Loading Data
 The dataset is not included in the repository. Please download telco.csv from [Kaggle Link](https://www.kaggle.com/datasets/alfathterry/telco-customer-churn-11-1-3?select=telco.csv) and place it in data/raw/."
 
+## ☁️ Run on Google Colab
+Although this project was developed locally in VS Code, the notebooks are fully compatible with **Google Colab**.
+If you want to replicate the analysis without setting up a local Python environment:
+1.  Open [Google Colab](https://colab.research.google.com/).
+2.  Upload the dataset (`telco.csv`) to the Colab session files.
+3.  Upload and execute the notebook (e.g., `Data_cleaning.ipynb`) from the `notebooks/` folder.
+4.  Run the cells! (Libraries will be installed automatically via `pip` commands inside the notebook).
+
 ## 📂 Project Structure
 ```text
 ├── data/
