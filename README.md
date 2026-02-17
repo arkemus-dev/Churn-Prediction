@@ -33,7 +33,7 @@ The model identified these behavioral drivers as the most critical:
 ### 1. Data Cleaning & Leakage Removal 🕵️‍♂️
 The raw dataset contained features that "spoiled" the answer. The following were identified and removed to ensure a realistic model:
 * `Satisfaction Score` (Post-churn survey data).
-* `Customer Status` (Directly correlates with Churn label, detected after the first prediction, the was learning "too well").
+* `Customer Status` (Directly correlates with Churn label, detected after the first prediction, the model was learning "too well").
 * `Churn Score` & `Churn Reason`.
 * **Handling Missing Values:** Detected and fixed hidden NaNs in `Total Charges` (imputed with 0 for new customers).
 
