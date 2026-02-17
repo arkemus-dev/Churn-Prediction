@@ -17,7 +17,7 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-notebooks/catboost_info
+catboost_info/
 lightning_logs/
 wandb/
 
